@@ -304,8 +304,7 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
 .lookFilled-yCfaCM.colorGreen-3y-Z79:active {
   background-color: var(--button-accent-active);
 }
-.lookFilled-yCfaCM.colorRed-rQXKgM,
-.bd-button.bd-button-danger {
+.lookFilled-yCfaCM.colorRed-rQXKgM {
   background-color: var(--button-destructive);
 }
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
@@ -319,13 +318,11 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
   color: var(--text-normal);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:hover,
-.lookOutlined-3yKVGo.colorRed-rQXKgM:hover,
-.bd-button.bd-button-danger:hover {
+.lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
   background-color: var(--button-destructive-hover);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:active,
-.lookOutlined-3yKVGo.colorRed-rQXKgM:active,
-.bd-button.bd-button-danger:active {
+.lookOutlined-3yKVGo.colorRed-rQXKgM:active {
   background-color: var(--button-destructive-active);
 }
 .theme-light .lookOutlined-3yKVGo.colorRed-rQXKgM:active,
@@ -352,35 +349,6 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
 .button-1iHNQ2,
 .button-1mXrIh {
   border-color: transparent !important;
-}
-/* bd buttons */
-.bd-button,
-.bd-view-button {
-  border-radius: var(--border-radius-2);
-}
-.bd-addon-button > svg,
-.bd-view-button.selected > svg {
-  fill: var(--interactive-selected) !important;
-}
-.bd-controls > .bd-addon-button:first-of-type {
-  border-radius: var(--border-radius-2) 0px 0px var(--border-radius-2);
-}
-.bd-controls > .bd-addon-button:last-of-type {
-  border-radius: 0px var(--border-radius-2) var(--border-radius-2) 0px;
-}
-.bd-addon-views .bd-view-button.selected {
-  background-color: var(--button-accent);
-  color: var(--interactive-selected);
-}
-.bd-button {
-  background-color: var(--button-accent);
-  color: var(--interactive-selected);
-}
-.bd-button:hover {
-  background-color: var(--button-accent-hover);
-}
-.bd-button:active {
-  background-color: var(--button-accent-active);
 }
 /* checkboxes */
 .checkboxElement-uwAa9F:checked + span,
@@ -541,7 +509,6 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
 .auditLog-1NVAY0,
 .background-3d_SjE,
 .roleRow-3LoHQ6,
-.bd-addon-card,
 .membershipDialogHouse2-2W27iJ,
 .codeRedemptionRedirect-3SBiCp,
 .card-o7rAq-,
@@ -603,7 +570,6 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
   .item-3XjbnG:not([aria-controls="Logout-tab"i]):not([aria-controls="delete-tab"])::before {
   color: var(--settings-icon-color);
 }
-.bd-social-logo path,
 .foreground-2hyALB {
   fill: var(--settings-icon-color) !important;
 }
@@ -704,26 +670,21 @@ div[role="radiogroup"] + .disabled-2qTmnp {
   border-color: var(--background-modifier-selected);
 }
 /* switches */
-.container-2nx-BQ:not([style*="118"]),
-.bd-switch-checked .bd-switch-body {
+.container-2nx-BQ:not([style*="118"]) {
   background-color: var(--background-modifier-selected) !important;
 }
-.container-2nx-BQ,
-.bd-switch-body {
+.container-2nx-BQ {
   background-color: var(--switch) !important;
 }
-svg.slider-32CRPX svg,
-.bd-switch-slider > svg {
+svg.slider-32CRPX svg {
   display: none;
 }
-.container-2nx-BQ > svg > rect,
-.bd-switch-handle {
+.container-2nx-BQ > svg > rect {
   fill: var(--interactive-selected);
 }
 /* menus */
 .menu-1QACrS,
 .quickSelectPopout-2F0PXw,
-.bd-select-options,
 .css-3vaxre-menu,
 .phoneFieldPopout-3O-1C3,
 .addGamePopout-3yePJc,
@@ -752,8 +713,7 @@ svg.slider-32CRPX svg,
 .languageSelector-2e1IuO .selected-22ukbQ:hover {
   background-color: var(--background-modifier-selected);
 }
-.quickSelectPopoutOption-2E2UmS,
-.bd-select .bd-select-option {
+.quickSelectPopoutOption-2E2UmS {
   margin: 8px;
   border-radius: var(--border-radius-2);
 }
@@ -1173,7 +1133,6 @@ svg.slider-32CRPX svg,
 }
 /* drop downs */
 .select-1YfRS9 > div,
-.bd-select,
 .select-1YfRS9 > div > div {
   border-radius: var(--border-radius-1);
   background-color: var(--background-secondary);
@@ -1456,7 +1415,6 @@ svg.slider-32CRPX svg,
 .contentWrapper-3vHNP2,
 .wrapper-1NNaWG,
 .inspector-DFKXwB,
-.bd-emote-header,
 .emojiPicker-6YCk8a {
   background-color: var(--background-tertiary);
 }
