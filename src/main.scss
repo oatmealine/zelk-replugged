@@ -1905,6 +1905,37 @@ svg.slider-32CRPX svg {
 .container-3ssFyj .selected-22ukbQ {
   background-color: var(--background-modifier-active);
 }
+// i hate fun (disable pfp decorations)
+.avatarDecoration-34OC0G,
+.avatarDecoration-2OJuSI {
+  display: none;
+}
+// disable custom profiles (complete flashbangs. Hate them)
+:root,
+.userPopoutOuter-3AVBmJ,
+.userProfileOuter-1K_BYU,
+.userProfileOuterThemed-3EfHmv,
+.profileColors-3Y0XaR,
+.default-colors,
+* {
+  --profile-gradient-primary-color: var(--background-primary) !important;
+  --profile-gradient-secondary-color: var(--background-primary) !important;
+  --profile-gradient-button-color: unset !important;
+  --profile-gradient-overlay-color: unset !important;
+  --profile-body-background-color: unset !important;
+  --profile-body-background-hover: unset !important;
+  --profile-body-divider-color: unset !important;
+  --profile-avatar-border-color: unset !important;
+  --profile-message-input-border-color: unset !important;
+  --profile-note-background-color: unset !important;
+  --account-profile-popout-menu-hover: unset !important;
+  --profile-role-pill-background-color: unset !important;
+  --profile-role-pill-border-color: unset !important;
+}
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+  padding: 0 !important;
+}
 /* quick switcher */
 .quickswitcher-pKcM9U,
 .scroller-2qwVWY {

@@ -7,3 +7,11 @@
   --background-accent: #1e2529;
   --border-color: #273034;
 }
+
+.theme-light {
+  --accent-color: #22c5fd;
+  --background-1: #ffffff;
+  --background-2: #f5f7fa;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
+}
