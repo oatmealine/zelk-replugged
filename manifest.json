@@ -1,18 +1,19 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
+  "id": "zone.oat.zelk",
+  "name": "Zelk",
   "description": "A theme template",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "oatmealine",
+    "discordID": "276416332894044160",
+    "github": "oatmealine"
   },
-  "version": "1.0.2",
+  "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "oatmealine/zelk-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "src/zelk.scss",
+  "splash": "src/splash.scss"
 }
