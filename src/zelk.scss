@@ -1,6 +1,7 @@
 /*         ▀▀█ █▀▀ █   █ █
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
+
 /*--------------IMPORTS------------- */
 @use "main";
 
@@ -18,19 +19,9 @@
 
 /*-------------VARIABLES-------------*/
 :root {
-  /* set to 'unset' to show */
-  --scrollbars: unset;
-  /* user notes */
-  --notes: none;
-  /* direct message box */
-  --message: none;
-  /* set to '4px solid' to show */
-  --embed-color: none;
   --font-primary: "Atkinson Hyperlegible", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --font-display: Ubuntu, "Atkinson Hyperlegible", Whitney, "Helvetica Neue", Helvetica, Arial,
     sans-serif !important;
-  --border-radius-1: 10px;
-  --border-radius-2: 8px;
 }
 /*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
