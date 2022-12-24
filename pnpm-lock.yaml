@@ -7,7 +7,6 @@ specifiers:
   '@parcel/transformer-sass': ^2.8.2
   '@types/node': ^18.11.15
   parcel: ^2.8.2
-  prettier: ^2.8.1
   replugged: 4.0.0-beta0.17
   tsx: ^3.12.1
 
@@ -18,7 +17,6 @@ devDependencies:
   '@parcel/transformer-sass': 2.8.2_@parcel+core@2.8.2
   '@types/node': 18.11.15
   parcel: 2.8.2
-  prettier: 2.8.1
   replugged: 4.0.0-beta0.17
   tsx: 3.12.1
 
@@ -1928,12 +1926,6 @@ packages:
     dependencies:
       posthtml-parser: 0.11.0
       posthtml-render: 3.0.0
-    dev: true
-
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
     dev: true
 
   /react-error-overlay/6.0.9:
