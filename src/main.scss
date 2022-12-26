@@ -19,6 +19,10 @@ $oatmealineID: '276416332894044160';
   --deprecated-text-input-border-disabled: var(--background-secondary);
   --text-brand: var(--brand-experiment);
 }
+::selection {
+  background-color: var(--accent-color);
+  color: var(--background-1);
+}
 .tabBody-2dgbAs,
 .chat-2ZfjoI,
 .container-1NXEtd,
@@ -1780,6 +1784,10 @@ svg.slider-32CRPX svg {
 .searchBar-2aylmZ {
   margin: 20px 20px 0;
 }
+.interactiveSelected-29CP8y {
+  color: var(--interactive-selected) !important;
+  background-color: var(--background-modifier-selected) !important;
+}
 /* boost & nitro*/
 .perksModal-1pSu7w {
   background-color: var(--background-tertiary) !important;
@@ -2242,6 +2250,7 @@ svg.slider-32CRPX svg {
 }
 [class*='unreadBar-'] {
   background-color: var(--background-secondary) !important;
+  color: var(--text-normal);
 }
 [class*='unreadMentionsBar-'] {
   background-color: var(--button-destructive) !important;
