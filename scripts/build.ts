@@ -9,29 +9,30 @@ const manifest: Theme = _manifest;
 const main = manifest.main || "src/main.css";
 const splash = manifest.splash || (existsSync("src/splash.css") ? "src/splash.css" : undefined);
 
+const mainDist = "main.css";
+const splashDist = "splash.css";
+
 const mainBundler = new Parcel({
   entries: main,
   defaultConfig: "@parcel/config-default",
   targets: {
     main: {
       distDir: "dist",
-      distEntry: "main.css",
+      distEntry: mainDist,
     },
   },
 });
 
-const splashBundler = splash
-  ? new Parcel({
-      entries: splash,
-      defaultConfig: "@parcel/config-default",
-      targets: {
-        main: {
-          distDir: "dist",
-          distEntry: "splash.css",
-        },
-      },
-    })
-  : undefined;
+const splashBundler = new Parcel({
+  entries: splash,
+  defaultConfig: "@parcel/config-default",
+  targets: {
+    main: {
+      distDir: "dist",
+      distEntry: splashDist,
+    },
+  },
+});
 
 const REPLUGGED_FOLDER_NAME = "replugged";
 export const CONFIG_PATH = (() => {
@@ -80,7 +81,7 @@ async function watch(bundler: Parcel) {
 
     if (event.type === "buildSuccess") {
       let bundles = event.bundleGraph.getBundles();
-      console.log(`✨ Built ${bundles.length} bundles in ${event.buildTime}ms!`);
+      console.log(`Built ${bundles[0].displayName}`);
       await install();
     } else if (event.type === "buildFailure") {
       console.log(event.diagnostics);
@@ -93,8 +94,8 @@ const shouldWatch = process.argv.includes("--watch");
 const fn = shouldWatch ? watch : build;
 [mainBundler, splashBundler].filter(Boolean).forEach((bundler) => fn(bundler!));
 
-manifest.main = "main.css";
-manifest.splash = splash ? "splash.css" : undefined;
+manifest.main = mainDist;
+manifest.splash = splashDist;
 
 if (!existsSync("dist")) {
   mkdirSync("dist");
