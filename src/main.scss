@@ -5,11 +5,11 @@
   --font-display: Ubuntu, "Atkinson Hyperlegible", Whitney, "Helvetica Neue", Helvetica, Arial,
     sans-serif !important;
 
-  --channeltextarea-background: var(--background-tertiary);
-  --radio-bar-accent-color: transparent;
-  --deprecated-text-input-bg: var(--background-secondary);
-  --deprecated-text-input-border-disabled: var(--background-secondary);
-  --text-brand: var(--brand-experiment);
+  --channeltextarea-background: var(--background-tertiary) !important;
+  --radio-bar-accent-color: transparent !important;
+  --deprecated-text-input-bg: var(--background-secondary) !important;
+  --deprecated-text-input-border-disabled: var(--background-secondary) !important;
+  --text-brand: var(--brand-experiment) !important;
 }
 
 ::selection {

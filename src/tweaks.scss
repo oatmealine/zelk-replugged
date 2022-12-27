@@ -216,8 +216,8 @@ $oatmealineID: '276416332894044160';
 }
 /* red & green things */
 :root {
-  --text-danger: var(--button-destructive);
-  --status-danger-background: var(--button-destructive);
+  --text-danger: var(--button-destructive) !important;
+  --status-danger-background: var(--button-destructive) !important;
 }
 .colorDanger-3n-KnP .checkbox-hADx5o,
 .colorDanger-3n-KnP .radioSelection-1UHp0b,
@@ -480,13 +480,13 @@ path[d^='M7.02799 0.333252C3.346'] {
   display: none;
 }
 :root {
-  --settings-logout: var(--button-destructive);
-  --settings-guild-delete: var(--button-destructive);
-  --status-danger: var(--button-destructive);
-  --status-positive: var(--text-positive);
-  --status-positive-background: var(--text-positive);
-  --status-positive-text: var(--interactive-selected);
-  --info-warning-background: var(--background-secondary);
+  --settings-logout: var(--button-destructive) !important;
+  --settings-guild-delete: var(--button-destructive) !important;
+  --status-danger: var(--button-destructive) !important;
+  --status-positive: var(--text-positive) !important;
+  --status-positive-background: var(--text-positive) !important;
+  --status-positive-text: var(--interactive-selected) !important;
+  --info-warning-background: var(--background-secondary) !important;
 }
 .syncIcon-3lhuwS path {
   fill: var(--status-positive);
@@ -511,7 +511,7 @@ path[d^='M7.02799 0.333252C3.346'] {
 }
 .side-2ur1Qk .item-3XjbnG[aria-controls='delete-tab']:active::before,
 .side-2ur1Qk .item-3XjbnG[aria-controls='logout-tab']:active::before {
-  --settings-icon-color: var(--button-destructive-active);
+  --settings-icon-color: var(--button-destructive-active) !important;
 }
 .powercord-product,
 .container-2oNtJn,

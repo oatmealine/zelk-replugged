@@ -49,7 +49,7 @@
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
 }
-:root {
+:root, .theme-dark, .theme-light {
   --background-primary: var(--background-1) !important;
   --background-primary-alt: var(--background-1) !important;
   --background-secondary: var(--background-1) !important;
